@@ -6,8 +6,10 @@ spec:
   microFrontend: xdt-ambulance-ufe
   element: xdt-ambulance-wl-app
   attributes:
-    - name: base-path
-      value: ./xdt-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5001/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content

@@ -4,7 +4,10 @@ metadata:
   name: xdt-ambulance-ufe-content
 spec:
   microFrontend: xdt-ambulance-ufe
-  element: truhlar-ambulance-we-list
+  element: xdt-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /xdt-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content

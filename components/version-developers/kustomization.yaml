@@ -4,3 +4,6 @@ images:
 - name: davidtruhlar7/ambulance-ufe
   newName: davidtruhlar7/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main.20260323.1007 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+- name: davidtruhlar7/ambulance-wl-webapi
+  newName: davidtruhlar7/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}

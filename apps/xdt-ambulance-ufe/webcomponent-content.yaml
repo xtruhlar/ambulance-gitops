@@ -6,6 +6,8 @@ spec:
   microFrontend: xdt-ambulance-ufe
   element: xdt-ambulance-wl-app
   attributes:
+    - name: base-path
+      value: /xdt-ambulance-wl/
     - name: api-base
       value: /xdt-api
     - name: ambulance-id

@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xdt-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: Zoznam čakajúcich xdt # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Dávid Truhlář" # Zadajte mená autorov
+  azureLink: "https://xdt-ambulance.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/xtruhlar/ambulance-ufe"
+  backendRepoUrl: "https://github.com/xtruhlar/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/xtruhlar/ambulance-gitops"

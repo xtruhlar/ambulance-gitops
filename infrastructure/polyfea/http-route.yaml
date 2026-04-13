@@ -29,4 +29,6 @@ spec:
         requestRedirect:
           path:
             type: ReplaceFullPath
-            replaceFullPath: /fea
+            replaceFullPath: /fea       
+          scheme: https
+          port: 443

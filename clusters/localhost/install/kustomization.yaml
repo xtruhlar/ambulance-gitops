@@ -10,6 +10,7 @@ labels:
 resources:
 - ../../../apps/xdt-ambulance-ufe
 - ../../../apps/xdt-ambulance-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml

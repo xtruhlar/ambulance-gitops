@@ -3,4 +3,7 @@ kind: Component
 images:
 - name: davidtruhlar7/ambulance-ufe
   newName: davidtruhlar7/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: davidtruhlar7/ambulance-wl-webapi
+  newName: davidtruhlar7/ambulance-wl-webapi
+  newTag: 1.1.0

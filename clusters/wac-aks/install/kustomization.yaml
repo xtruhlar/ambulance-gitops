@@ -12,6 +12,8 @@ labels:
 
 resources:
 - ../../../apps/xdt-ambulance-ufe
+- ../../../apps/xdt-ambulance-webapi
+
 
 components:
 - ../../../components/version-release
